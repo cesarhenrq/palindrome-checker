@@ -1,0 +1,29 @@
+:root {
+  --color-primary: #f9ed69;
+  --color-secondary: #f08a5d;
+  --color-tertiary: #b83b5e;
+  --color-quaternary: #6a2c70;
+  --color-quinary: #3d314a;
+
+  --font-primary: "Roboto", sans-serif;
+
+  --font-size-normal: 1rem;
+  --font-size-large: 1.5rem;
+  --font-size-xlarge: 2rem;
+  --font-size-small: 0.75rem;
+  --font-size-xsmall: 0.5rem;
+  --font-size-xxsmall: 0.25rem;
+  --font-size-medium: 1.25rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+}
