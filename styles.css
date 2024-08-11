@@ -26,4 +26,70 @@
 
 html {
   font-size: 16px;
+  font-family: var(--font-primary);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--color-quinary);
+}
+
+.container h1 {
+  font-size: var(--font-size-xlarge);
+  color: var(--color-primary);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#text-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-size: var(--font-size-normal);
+  font-family: var(--font-primary);
+  background-color: var(--color-quaternary);
+  color: var(--color-primary);
+  border-radius: 0.5rem;
+}
+
+#text-input::placeholder {
+  color: var(--color-primary);
+}
+
+#check-btn {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  font-size: var(--font-size-normal);
+  font-family: var(--font-primary);
+  background-color: var(--color-quaternary);
+  color: var(--color-primary);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+#check-btn:hover {
+  transform: scale(1.01);
+}
+
+#result {
+  margin-top: 1rem;
+  font-size: var(--font-size-large);
+  color: var(--color-primary);
+}
+
+#result-text {
+  color: var(--color-secondary);
+  font-weight: bold;
 }
